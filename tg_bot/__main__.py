@@ -40,7 +40,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!It took lots of work for [CHANNEL](t.me/VKPROJECTS) to get me to where I am now,You Can Donate To My Channel [Here](https://t.me/VK_BOTS). """
+DONATE_STRING = """Heya, glad to hear you want to donate!It took lots of work for [CHANNEL](t.me/vkprojects) to get me to where I am now,You Can Donate To My Channel [Here](https://t.me/vkp_bots). """
 
 IMPORTED = {}
 MIGRATEABLE = []
