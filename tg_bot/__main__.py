@@ -18,7 +18,10 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-I am a group managing bot but don't waste time I work only in my owner's group
+Hello,
+This bot is exclusively made for @VKprojects
+
+You can see me in @VKP_bots
 """
 
 HELP_STRINGS = """
@@ -37,7 +40,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!It took lots of work for [CHANNEL](t.me/VKPROJECTS) to get me to where I am now,You Can Donate To My Channel [Here](https://t.me/VKPROJECTS/7). """
+DONATE_STRING = """Heya, glad to hear you want to donate!It took lots of work for [CHANNEL](t.me/VKPROJECTS) to get me to where I am now,You Can Donate To My Channel [Here](https://t.me/VK_BOTS). """
 
 IMPORTED = {}
 MIGRATEABLE = []
